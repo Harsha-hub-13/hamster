@@ -44,7 +44,7 @@ function setMole() {
     if (currMoleTile) currMoleTile.innerHTML = "";
     
     let mole = document.createElement("img");
-    mole.src = "../monty-mole.png";
+    mole.src = "monty-mole.png";
 
     let num = getRandomTile();
     while (currPlantTile && currPlantTile.id === num) {
@@ -60,7 +60,7 @@ function setPlant() {
     if (currPlantTile) currPlantTile.innerHTML = "";
 
     let plant = document.createElement("img");
-    plant.src = "../piranha-plant.png";
+    plant.src = "piranha-plant.png";
 
     let num = getRandomTile();
     while (currMoleTile && currMoleTile.id === num) {
